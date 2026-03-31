@@ -1,0 +1,28 @@
+:root {
+--primary-blue: #3498db;
+--dark-blue: #2c3e50;
+--success-green: #27ae60;
+--purple: #9b59b6;
+--red: #e74c3c;
+--orange: #e67e22;
+--bg-gray: #f4f7f6;
+--subtotal-bg: #ebf5fb;
+}
+
+body{
+font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+background-color:var(--bg-gray);
+margin:0;
+padding:20px;
+display:flex;
+justify-content:center;
+}
+
+.container{
+width:100%;
+max-width:1400px;
+background:white;
+padding:25px;
+border-radius:8px;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
